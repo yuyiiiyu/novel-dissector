@@ -1,0 +1,24 @@
+# 产出目录（分析产物，不入库）
+产出/
+output/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 小说原文（版权内容，不入库）
+*.txt
+!*.md
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时
+tmp/
+temp/
+*.tmp
